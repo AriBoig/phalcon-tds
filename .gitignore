@@ -45,3 +45,9 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+.idea/workspace.xml
+.idea/modules.xml
+.idea/vcs.xml
+*.htaccess
+user-management/.htrouter.php
+.idea/phalcon-tds.iml

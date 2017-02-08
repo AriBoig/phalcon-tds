@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titre</title>
+</head>
+
+<body>
+<table class="ui inverted red table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted orange table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted yellow table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted olive table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted green table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted teal table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted blue table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted violet table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted purple table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted pink table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted brown table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+<table class="ui inverted grey table">
+    <thead>
+    <tr><th>Food</th>
+        <th>Calories</th>
+        <th>Protein</th>
+    </tr></thead><tbody>
+<tr>
+    <td>Apples</td>
+    <td>200</td>
+    <td>0g</td>
+</tr>
+<tr>
+    <td>Orange</td>
+    <td>310</td>
+    <td>0g</td>
+</tr>
+</tbody>
+</table>
+
+<h1 class="ui header">First header</h1>
+<h2 class="ui header">Second header</h2>
+<h3 class="ui header">Third header</h3>
+<h4 class="ui header">Fourth header</h4>
+<h5 class="ui header">Fifth header</h5>
+</body>
+
+</html>
+
