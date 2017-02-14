@@ -1,7 +1,7 @@
 
 <h1>Ajout d'utilisateur</h1>
 <div style="margin-left: 2%;">
-<button><i class="add user icon"></i>{{ link_to("../user-management/users","retour à la liste") }} </button>
+<button><i class="add user icon"></i><?= $this->tag->linkTo(['../user-management/users', 'retour à la liste']) ?> </button>
 </div>
 <form method="post" class="ui equal width form" style="width: 90%; margin-left: 5%;">
     <div class="fields">
@@ -32,9 +32,9 @@
         <div class="field">
         <label>Rôle</label>
             <select class="ui fluid dropdown" name="idrole">
-                {% for role in roles %}
-                <option value="{{role.id}}">{{ role.name }}</option>
-                {% endfor %}
+                <?php foreach ($roles as $role) { ?>
+                <option value="<?= $role->id ?>"><?= $role->name ?></option>
+                <?php } ?>
         </select>
         </div>
     </div>

@@ -1,233 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Titre</title>
-</head>
-
-<body>
-<table class="ui inverted red table">
+<div style="margin-left: 5%;">
+    <button><i class="add user icon"></i><?= $this->tag->linkTo(['users/add', 'Nouvel utilisateur']) ?> </button>
+    <div class="ui input focus" style="width: 80%;">
+        <input type="text" placeholder="Search...">
+    </div>
+</div>
+<table class="ui celled table" style="width: 90%;margin-left: 5%">
     <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted orange table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted yellow table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted olive table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted green table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted teal table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted blue table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted violet table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted purple table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted pink table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted brown table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
-</table>
-<table class="ui inverted grey table">
-    <thead>
-    <tr><th>Food</th>
-        <th>Calories</th>
-        <th>Protein</th>
-    </tr></thead><tbody>
-<tr>
-    <td>Apples</td>
-    <td>200</td>
-    <td>0g</td>
-</tr>
-<tr>
-    <td>Orange</td>
-    <td>310</td>
-    <td>0g</td>
-</tr>
-</tbody>
+        <tr>
+            <th>
+                <input type="checkbox" name="example">
+            </th>
+            <th>Prénom</th>
+            <th>Nom</th>
+            <th>Login</th>
+            <th>Email</th>
+            <th>Rôle</th>
+            <th>Bouton</th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($users as $user) { ?>
+    <tr>
+        <td>  <input type="checkbox" name="example"/>    </td>
+        <td><?= $user->getFirstname() ?></td>
+        <td><?= $user->getLastname() ?></td>
+        <td><?= $user->getLogin() ?></td>
+        <td><?= $user->getEmail() ?></td>
+        <td><?= $user->getRole()->getName() ?></td>
+        <td><button>  <?= $this->tag->linkTo(['users/update/' . $user->getId(), '<i class=\'write icon\'></i>']) ?></button><button> <?= $this->tag->linkTo(['users/delete', '<i class=\'remove user icon\'></i>']) ?></button></td>
+    </tr>
+    <?php } ?>
+    </tbody>
+    <tfoot>
+    <tr><th colspan="3">
+        <div class="ui right floated pagination menu">
+            <a class="icon item">
+                <i class="left  chevron icon"></i>
+            </a>
+            <a class="item">1</a>
+            <a class="item">2</a>
+            <a class="item">3</a>
+            <a class="item">4</a>
+            <a class="icon item">
+                <i class="right chevron icon"></i>
+            </a>
+        </div>
+    </th>
+    </tr></tfoot>
 </table>
 
-<h1 class="ui header">First header</h1>
-<h2 class="ui header">Second header</h2>
-<h3 class="ui header">Third header</h3>
-<h4 class="ui header">Fourth header</h4>
-<h5 class="ui header">Fifth header</h5>
-</body>
-
-</html>
 
