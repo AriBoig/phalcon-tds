@@ -27,7 +27,7 @@
         <td><?= $user->getLogin() ?></td>
         <td><?= $user->getEmail() ?></td>
         <td><?= $user->getRole()->getName() ?></td>
-        <td><button>  <?= $this->tag->linkTo(['users/update/' . $user->getId(), '<i class=\'write icon\'></i>']) ?></button><button> <?= $this->tag->linkTo(['users/delete', '<i class=\'remove user icon\'></i>']) ?></button></td>
+        <td><button>  <?= $this->tag->linkTo(['users/update/' . $user->getId(), '<i class=\'write icon\'></i>']) ?></button><button>  <?= $this->tag->linkTo(['users/show/' . $user->getId(), '<i class=\'eye icon\'></i>']) ?></button><button> <?= $this->tag->linkTo(['users/delete/' . $user->getId(), '<i class=\'remove user icon\'></i>']) ?></button></td>
     </tr>
     <?php } ?>
     </tbody>

@@ -42,5 +42,5 @@
             </select>
         </div>
     </div>
-    <button class="ui positive button" type="submit">Submit</button>
+    <button class="ui positive button" type="submit">Valider</button>
 </form>

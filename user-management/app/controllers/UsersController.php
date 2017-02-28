@@ -29,15 +29,29 @@ class UsersController extends ControllerBase
     }
 
 
-    public function deleteAction(){
-
+    public function deleteAction($id){
+        $user = User::findFirst($id);
+        $this->view->setVar("user", $user);
+        if ($user->delete() == false) {
+            $msg = "Impossible de supprimer l'utilisateur \n";
+            foreach ($user->getMessages() as $message) {
+                $msg .= $message . "\n";
+            }
+            $this->view->setVar("Message", $msg);
+        } else {
+            $this->view->setVar("Message", "L'utilisateur a été supprimé");
+        }
     }
 
-    public function showAction(){
+    public function showAction($id){
+        $role = Role::find();
+        $this->view->setVar("roles", $role);
 
+        $user = User::findFirst($id);
+        $this->view->setVar("user", $user);
     }
 
-    public function updateAction($id = NULL){
+    public function updateAction($id){
         $role = Role::find();
         $this->view->setVar("roles", $role);
 
@@ -52,11 +66,18 @@ class UsersController extends ControllerBase
             $user -> setLogin($_POST['login']);
             $user -> setPassword($_POST['mdp']);
             $user -> setIdrole($_POST['idRole']);
-            if($user -> save())
-                $this->view->setVar("Message","Utilisateur modifié");
-            else
-                $this->view->setVar("Message","Des choses sont manquantes");
+            if ($user->save() == false) {
+                $msg = "Problème d'enregistrement \n";
+                foreach ($user->getMessages() as $message) {
+                    $msg .= $message . "\n";
+                }
+                $this->view->setVar("Message", $msg);
+            } else {
+                $this->view->setVar("Message", "Utilisateur modifié");
+            }
         }
     }
+
+
 }
 
