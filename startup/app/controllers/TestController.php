@@ -32,15 +32,34 @@ class TestController extends ControllerBase{
         $bt2=$this->semantic->htmlButton("btPage2","page 2");
         $bt2->getOnClick("test/page2","#pageContent");
         $this->semantic->htmlMessage("pageContent");
+
+        $bt->getOn("mouseover","test/page1","#pageDesc");
+        $bt2->getOn("mouseover","test/page2","#pageDesc");
+
+        $bt->on("mouseout",$this->jquery->html("#pageDesc",""));
+        $bt2->on("mouseout",$this->jquery->html("#pageDesc",""));
+
         $this->jquery->compile($this->view);
     }
 
     public function page1Action(){
-        echo "Page 1.......";
+        $this->view->disable();
+        echo "Page 1";
+        echo "<div id='page2'> </div>";
+        $this->jquery->get("test/page2","#page2");
+        echo $this->jquery->compile();
     }
 
     public function page2Action(){
-        echo ".......Page 2";
+        $this->view->disable();
+        echo "Page 2";
     }
+
+    public function chargementAction(){
+        $bt=$this->semantic->htmlButton("btLoad","Chargement");
+        $bt->getOnClick("test/page1","#page1");
+        $this->jquery->compile($this->view);
+    }
+
 
 }
