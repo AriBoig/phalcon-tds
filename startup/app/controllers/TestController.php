@@ -61,5 +61,31 @@ class TestController extends ControllerBase{
         $this->jquery->compile($this->view);
     }
 
+    public function postFormAction(){
+        $form=$this->semantic->htmlForm("frm1");
+        $form->addInput("firstName","First Name");
+        $form->addInput("lastName","Last Name");
+        $form->addSubmit("btSubmit","Submit form","green","test/pageReponse","#rep");
+        echo $this->jquery->compile($this->view);
+    }
+
+    public function pageReponseAction(){
+        $this->view->disable();
+        echo $_POST['firstName']."\n";
+        echo $_POST['lastName'];
+    }
+
+    public function jsonFormAction(){
+        $form2=$this->semantic->htmlForm("frm2");
+        $bt=$this->semantic->htmlButton("user1","user1");
+        $bt->getOnClick("test/page1","#page1");
+        $bt2=$this->semantic->htmlButton("user2","user2");
+        $bt2->getOnClick("test/page1","#page1");
+        $form2->addInput("nom","Nom");
+        $form2->addInput("email","Email");
+        $form2->addSubmit("btSubmit","Valider","blue","test/pageReponse","#postReponse");
+        echo $this->jquery->compile($this->view);
+    }
+
 
 }
