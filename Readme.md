@@ -1,8 +1,8 @@
-#Phalcon-tds
+# Phalcon-tds
 
-#Aristide Boisgontier
+# Aristide Boisgontier
 
-#TD1/2 réalisé à 100% :
+# TD1/2 réalisé à 100% :
 Liste des utilisateur : ✓ 
 
 Edition d'un utilisateur : ✓
@@ -11,9 +11,9 @@ Affichage d'un utilisateur : ✓
 
 Il me manque la fonctionnalité qui permet de trier les utilisateurs.
 
-#TD3 non réalisé
+# TD3 non réalisé
 
-#TD4 réalisé à 80% :
+# TD4 réalisé à 80% :
 
 Afficher/Masquer des événements : ✓
 
